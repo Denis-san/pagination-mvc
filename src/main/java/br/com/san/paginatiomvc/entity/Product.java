@@ -8,7 +8,7 @@ public class Product implements Serializable{
 	
 	private Integer id;
 	private String name;
-	private Double value;
+	private Double price;
 	private Integer qntStorage;
 	private String code;
 
@@ -16,10 +16,10 @@ public class Product implements Serializable{
 
 	}
 
-	public Product(Integer id, String name, Double value, Integer qntStorage, String code) {
+	public Product(Integer id, String name, Double price, Integer qntStorage, String code) {
 		this.id = id;
 		this.name = name;
-		this.value = value;
+		this.price = price;
 		this.qntStorage = qntStorage;
 		this.code = code;
 	}
@@ -40,12 +40,12 @@ public class Product implements Serializable{
 		this.name = name;
 	}
 
-	public Double getValue() {
-		return value;
+	public Double getPrice() {
+		return price;
 	}
 
-	public void setValue(Double value) {
-		this.value = value;
+	public void setPrice(Double price) {
+		this.price = price;
 	}
 
 	public Integer getQntStorage() {

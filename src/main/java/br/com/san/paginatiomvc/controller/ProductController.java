@@ -1,4 +1,4 @@
-package br.com.san.paginatiomvc;
+package br.com.san.paginatiomvc.controller;
 
 import java.util.Arrays;
 import java.util.List;

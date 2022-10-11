@@ -23,11 +23,11 @@
     <div class="div-table mb-4">
 
         <div class="my-4 p-3 head-search border-bottom">
-            <form th:action="@{/product/search}" method="POST">
+            <form th:action="@{/product/search}" method="GET">
                 <div class="row">
                     <label for="inputSearch" class="col-sm-1 col-form-label ps-0">Pesquisar</label>
                     <div class="col-sm-10">
-                        <input type="search" name="search" class="form-control" id="inputSearch">
+                        <input type="search" name="search" class="form-control" id="inputSearch" placeholder="Deixe vazio para buscar todos os itens...">
                     </div>
                     <div class="col-sm-1">
                         <button class="btn-outline-search ">Buscar</button>

@@ -10,6 +10,6 @@ public interface ProductService {
 
 	public Page<Product> search(String search, Pageable pageable);
 
-	public Object findAll(PageRequest pageRequest);
+	public Page<Product> findAll(PageRequest pageRequest);
 	
 }

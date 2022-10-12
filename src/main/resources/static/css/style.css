@@ -54,3 +54,8 @@
     color: #e76f51;
 }
 
+.actived, .actived a {
+    color: #fff;
+    background-color: #e76f51;
+    
+}

@@ -21,7 +21,7 @@ public class ProductServiceImpl implements ProductService {
 	}
 
 	@Override
-	public Object findAll(PageRequest pageRequest) {
+	public Page<Product> findAll(PageRequest pageRequest) {
 		return repository.findAll(pageRequest);
 	}
 
